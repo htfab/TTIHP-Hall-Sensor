@@ -1,0 +1,49 @@
+v {xschem version=3.4.8RC file_version=1.3}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+F {}
+E {}
+L 7 20 -130 20 -110 {}
+L 7 0 130 0 150 {}
+L 7 130 40 150 40 {}
+L 7 130 80 150 80 {}
+L 7 -150 -60 -130 -60 {}
+L 7 130 -80 150 -80 {}
+L 7 -150 60 -130 60 {}
+L 7 -150 -20 -130 -20 {}
+L 7 -150 20 -130 20 {}
+L 7 130 -20 150 -20 {}
+L 7 -20 -130 -20 -110 {}
+L 7 130 120 150 120 {}
+B 5 17.5 -132.5 22.5 -127.5 {name=VDD dir=inout}
+B 5 -2.5 147.5 2.5 152.5 {name=VSS dir=inout}
+B 5 147.5 37.5 152.5 42.5 {name=CLK dir=inout}
+B 5 147.5 77.5 152.5 82.5 {name=!CLK dir=inout}
+B 5 -152.5 -62.5 -147.5 -57.5 {name=HALL_TOP dir=inout}
+B 5 147.5 -82.5 152.5 -77.5 {name=OUT_P dir=inout}
+B 5 -152.5 57.5 -147.5 62.5 {name=HALL_LEFT dir=inout}
+B 5 -152.5 -22.5 -147.5 -17.5 {name=HALL_RIGHT dir=inout}
+B 5 -152.5 17.5 -147.5 22.5 {name=HALL_BOTTOM dir=inout}
+B 5 147.5 -22.5 152.5 -17.5 {name=OUT_N dir=inout}
+B 5 -22.5 -132.5 -17.5 -127.5 {name=AVDD dir=inout}
+B 5 147.5 117.5 152.5 122.5 {name=ENA dir=inout}
+P 4 5 130 -110 -130 -110 -130 130 130 130 130 -110 {}
+T {@symname} -29.5 -66 0 0 0.3 0.3 {}
+T {@name} 135 -112 0 0 0.2 0.2 {}
+T {VDD} 16 -105 3 1 0.2 0.2 {}
+T {VSS} 4 125 1 1 0.2 0.2 {}
+T {CLK} 125 36 0 1 0.2 0.2 {}
+T {!CLK} 125 76 0 1 0.2 0.2 {}
+T {HALL_TOP} -125 -64 0 0 0.2 0.2 {}
+T {OUT_P} 125 -84 0 1 0.2 0.2 {}
+T {HALL_LEFT} -125 56 0 0 0.2 0.2 {}
+T {HALL_RIGHT} -125 -24 0 0 0.2 0.2 {}
+T {HALL_BOTTOM} -125 16 0 0 0.2 0.2 {}
+T {OUT_N} 125 -24 0 1 0.2 0.2 {}
+T {AVDD} -24 -105 3 1 0.2 0.2 {}
+T {ENA} 125 116 0 1 0.2 0.2 {}
