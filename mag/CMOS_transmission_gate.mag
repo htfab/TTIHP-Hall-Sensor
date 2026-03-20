@@ -1,0 +1,56 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1773998157
+<< error_s >>
+rect 67 -1851 107 -1793
+rect 10 -1925 50 -1867
+rect 124 -1925 164 -1867
+rect 174 -1875 236 -1804
+rect 303 -1839 343 -1793
+rect 280 -1843 366 -1839
+rect 303 -1851 343 -1843
+rect 246 -1875 286 -1867
+rect 360 -1875 400 -1867
+rect 174 -1879 296 -1875
+rect 350 -1876 410 -1875
+rect 174 -1913 286 -1879
+rect 174 -1917 296 -1913
+rect 350 -1916 400 -1876
+rect 350 -1917 410 -1916
+rect 174 -1926 236 -1917
+rect 246 -1925 286 -1917
+rect 360 -1925 400 -1917
+rect 67 -1999 107 -1941
+rect 303 -1949 343 -1941
+rect 280 -1953 366 -1949
+rect 303 -1999 343 -1953
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+rect 0 -1600 200 -1400
+rect 0 -2000 200 -1800
+use sg13_lv_nmos_8QWFDF  XM1
+timestamp 1773998157
+transform 1 0 87 0 1 -1896
+box -87 -104 87 104
+use sg13_lv_pmos_7RWFQ4  XM2
+timestamp 1773998157
+transform 1 0 323 0 1 -1896
+box -149 -104 149 104
+<< labels >>
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 !Control
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 vdd
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 Vin
+port 2 nsew
+flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 Vout
+port 3 nsew
+flabel metal1 0 -1600 200 -1400 0 FreeSans 256 0 0 0 gnd
+port 4 nsew
+flabel metal1 0 -2000 200 -1800 0 FreeSans 256 0 0 0 Control
+port 5 nsew
+<< end >>

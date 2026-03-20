@@ -1,0 +1,89 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1773998157
+<< error_s >>
+rect 474 -891 546 -817
+rect 67 -1051 107 -993
+rect 182 -1067 200 -1000
+rect 218 -1039 236 -1001
+rect 241 -1039 281 -993
+rect 296 -1039 304 -1001
+rect 332 -1021 340 -965
+rect 218 -1043 304 -1039
+rect 241 -1051 281 -1043
+rect 318 -1044 340 -1021
+rect 318 -1048 364 -1044
+rect 318 -1067 366 -1048
+rect 10 -1125 50 -1067
+rect 124 -1125 164 -1067
+rect 182 -1075 224 -1067
+rect 298 -1075 366 -1067
+rect 182 -1076 234 -1075
+rect 184 -1079 234 -1076
+rect 288 -1079 366 -1075
+rect 184 -1113 224 -1079
+rect 298 -1112 366 -1079
+rect 474 -1087 546 -1013
+rect 298 -1113 348 -1112
+rect 184 -1116 234 -1113
+rect 182 -1117 234 -1116
+rect 288 -1117 348 -1113
+rect 182 -1125 224 -1117
+rect 298 -1125 348 -1117
+rect 67 -1199 107 -1141
+rect 182 -1200 200 -1125
+rect 318 -1126 348 -1125
+rect 241 -1149 281 -1141
+rect 218 -1153 304 -1149
+rect 218 -1191 236 -1153
+rect 241 -1199 281 -1153
+rect 296 -1191 304 -1153
+rect 332 -1216 340 -1126
+rect 893 -1131 933 -1085
+rect 870 -1135 956 -1131
+rect 893 -1143 933 -1135
+rect 836 -1167 876 -1159
+rect 950 -1167 990 -1159
+rect 826 -1171 886 -1167
+rect 940 -1168 1000 -1167
+rect 826 -1205 876 -1171
+rect 826 -1209 886 -1205
+rect 940 -1208 990 -1168
+rect 940 -1209 1000 -1208
+rect 836 -1217 876 -1209
+rect 950 -1217 990 -1209
+rect 893 -1241 933 -1233
+rect 870 -1245 956 -1241
+rect 893 -1291 933 -1245
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+use sg13_lv_nmos_8QWFDF  XM1
+timestamp 1773998157
+transform 1 0 87 0 1 -1096
+box -87 -104 87 104
+use sg13_lv_pmos_7RWFQ4  XM2
+timestamp 1773998157
+transform 1 0 913 0 1 -1188
+box -149 -104 149 104
+use sg13_lv_nmos_8QWFDF  XM_TAIL1
+timestamp 1773998157
+transform 1 0 261 0 1 -1096
+box -87 -104 87 104
+use rhigh_U3TW6E  XR1
+timestamp 1773998157
+transform 1 0 510 0 1 -952
+box -254 -340 254 340
+<< labels >>
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 BIAS
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 VDD
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 VSS
+port 2 nsew
+flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 ENA
+port 3 nsew
+<< end >>

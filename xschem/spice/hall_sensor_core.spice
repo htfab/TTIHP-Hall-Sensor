@@ -1,0 +1,195 @@
+** sch_path: /headless/eda/Hall_Xschem_Logic/hall_sensor_core.sch
+.subckt hall_sensor_core COMP1 COMP2 COMP3 COMP4 COMP5 COMP6 COMP7 VSS VDD COMP8 CLK ENA
+*.PININFO COMP2:B COMP3:B COMP4:B COMP5:B COMP6:B COMP7:B COMP8:B COMP1:B VSS:B VDD:B CLK:B ENA:B
+x1 net4 net3 net1 net2 Hall_Sensor
+x2 VDD VSS CLK !clk net4 net25 net3 net1 net2 net7 VDD !ena Rotator
+XC2 out_n VSS cap_cmim w=1e-5 l=1e-5
+XC3 out_p VSS cap_cmim w=1e-5 l=1e-5
+x4 VDD CLK !clk VSS Inverter
+x3 amp_out net6 VDD net5 VSS !ena Simple_OTA
+XR3 out_n net7 GND rhigh w=0.5e-6 l=10e-6 m=1 b=0
+XR1 net25 out_p GND rhigh w=0.5e-6 l=10e-6 m=1 b=0
+XC6 filter1_p VSS cap_cmim w=2.5e-5 l=2.5e-5
+XC4 filter1_n VSS cap_cmim w=2.5e-5 l=2.5e-5
+x9 filter1_n amp_n VDD filter1_n VSS OTA_C_Bias OTA-C
+x7 filter1_p amp_p VDD filter1_p VSS OTA_C_Bias OTA-C
+x5 OTA_C_Bias VDD VSS !ena Bias_Gen
+XC8 filter2_p VSS cap_cmim w=2.5e-5 l=2.5e-5
+XC9 filter2_n VSS cap_cmim w=2.5e-5 l=2.5e-5
+x11 filter2_n filter1_n VDD filter2_n VSS OTA_C_Bias OTA-C
+x12 filter2_p filter1_p VDD filter2_p VSS OTA_C_Bias OTA-C
+XC5 filter3_p VSS cap_cmim w=2.5e-5 l=2.5e-5
+XC7 filter3_n VSS cap_cmim w=2.5e-5 l=2.5e-5
+x8 filter3_n filter2_n VDD filter3_n VSS OTA_C_Bias OTA-C
+x10 filter3_p filter2_p VDD filter3_p VSS OTA_C_Bias OTA-C
+XR2 net20 net19 VSS rhigh w=0.5e-6 l=194e-6 m=1 b=0
+XR4 net19 net16 VSS rhigh w=0.5e-6 l=10e-6 m=1 b=0
+XR5 net16 net17 VSS rhigh w=0.5e-6 l=13e-6 m=1 b=0
+XR6 net17 net8 VSS rhigh w=0.5e-6 l=47.539e-6 m=1 b=0
+XR7 net8 net18 VSS rhigh w=0.5e-6 l=33.956e-6 m=1 b=0
+XR8 net18 net13 VSS rhigh w=0.5e-6 l=20.896e-6 m=1 b=0
+XR9 net13 net9 VSS rhigh w=0.5e-6 l=16.702e-6 m=1 b=0
+XR10 net9 net10 VSS rhigh w=0.5e-6 l=20.677e-6 m=1 b=0
+XR11 net10 amp_out VSS rhigh w=0.5e-6 l=15.075e-6 m=1 b=0
+x14 VSS VDD net12 COMP2 Schmitt_Comparator
+x15 VSS VDD net11 COMP3 Schmitt_Comparator
+x16 VSS VDD net21 COMP4 Schmitt_Comparator
+x17 VSS VDD net22 COMP5 Schmitt_Comparator
+x18 VSS VDD net14 COMP6 Schmitt_Comparator
+x19 VSS VDD net23 COMP7 Schmitt_Comparator
+x20 VSS VDD net24 COMP8 Schmitt_Comparator
+x21 VSS VDD net15 COMP1 Schmitt_Comparator
+XC17 amp_out VSS cap_cmim w=5e-6 l=5e-6
+XR12 net10 net15 VSS rhigh w=0.5e-6 l=6e-6 m=1 b=0
+XR13 net9 net12 VSS rhigh w=0.5e-6 l=6e-6 m=1 b=0
+XR14 net13 net11 VSS rhigh w=0.5e-6 l=6e-6 m=1 b=0
+XR15 net18 net21 VSS rhigh w=0.5e-6 l=6e-6 m=1 b=0
+XR16 net8 net22 VSS rhigh w=0.5e-6 l=6e-6 m=1 b=0
+XR17 net17 net14 VSS rhigh w=0.5e-6 l=6e-6 m=1 b=0
+XR18 net16 net23 VSS rhigh w=0.5e-6 l=6e-6 m=1 b=0
+XR19 net19 net24 VSS rhigh w=0.5e-6 l=6e-6 m=1 b=0
+x22 amp_n amp_p VDD VSS out_p out_n !ena Small_Differential_Amplifier
+x6 net5 net6 VDD VSS filter3_p filter3_n !ena Small_Differential_Amplifier
+x13 VDD ENA !ena VSS Inverter
+XM1 net20 ENA VSS VSS sg13_lv_nmos w=0.15u l=0.13u ng=1
+.ends
+
+* expanding   symbol:  /headless/eda/Hall_Xschem_Logic/Hall_Sensor.sym # of pins=4
+** sym_path: /headless/eda/Hall_Xschem_Logic/Hall_Sensor.sym
+** sch_path: /headless/eda/Hall_Xschem_Logic/Hall_Sensor.sch
+.subckt Hall_Sensor HALL_TOP HALL_LEFT HALL_RIGHT HALL_BOTTOM
+*.PININFO HALL_TOP:B HALL_BOTTOM:B HALL_LEFT:B HALL_RIGHT:B
+R1 HALL_TOP HALL_LEFT 1k
+R2 HALL_TOP HALL_RIGHT 1k
+R3 HALL_LEFT HALL_BOTTOM 1k
+R4 HALL_RIGHT HALL_BOTTOM 1k
+**** begin user architecture code
+
+
+* Dummy voltage representing the magnetic field (B_FIELD)
+* We initialize it to 0. The testbench will alter this!
+VB B_FIELD 0 0
+
+* Phase 1: Bias flowing Top->Bottom creates a Hall current Left->Right
+B_LR HALL_RIGHT HALL_LEFT I = V(HALL_TOP, HALL_BOTTOM) * V(B_FIELD) * 35e-6
+
+* Phase 2: Bias flowing Left->Right creates a Hall current Top->Bottom
+B_TB HALL_TOP HALL_BOTTOM I = V(HALL_LEFT, HALL_RIGHT) * V(B_FIELD) * 35e-6
+
+
+**** end user architecture code
+.ends
+
+
+* expanding   symbol:  /headless/eda/Hall_Xschem_Logic/Rotator.sym # of pins=12
+** sym_path: /headless/eda/Hall_Xschem_Logic/Rotator.sym
+** sch_path: /headless/eda/Hall_Xschem_Logic/Rotator.sch
+.subckt Rotator VDD VSS CLK !CLK HALL_TOP OUT_P HALL_LEFT HALL_RIGHT HALL_BOTTOM OUT_N AVDD ENA
+*.PININFO HALL_TOP:B HALL_RIGHT:B HALL_LEFT:B HALL_BOTTOM:B OUT_P:B OUT_N:B VDD:B VSS:B CLK:B !CLK:B AVDD:B ENA:B
+x10 CLK VDD HALL_TOP OUT_P VSS !CLK CMOS_transmission_gate
+XM7 HALL_BOTTOM CLK VSS VSS sg13_lv_nmos w=5u l=0.13u ng=3
+XM1 HALL_LEFT !CLK VSS VSS sg13_lv_nmos w=5u l=0.13u ng=3
+XM5 HALL_RIGHT CLK net1 VDD sg13_lv_pmos w=10u l=0.13u ng=3
+XM2 HALL_TOP !CLK net2 VDD sg13_lv_pmos w=10u l=0.13u ng=3
+x1 !CLK VDD HALL_RIGHT OUT_N VSS CLK CMOS_transmission_gate
+x2 !CLK VDD HALL_LEFT OUT_P VSS CLK CMOS_transmission_gate
+x3 CLK VDD HALL_BOTTOM OUT_N VSS !CLK CMOS_transmission_gate
+XM3 net2 ENA AVDD VDD sg13_lv_pmos w=10u l=0.13u ng=3
+XM4 net1 ENA AVDD VDD sg13_lv_pmos w=10u l=0.13u ng=3
+.ends
+
+
+* expanding   symbol:  /headless/eda/Hall_Xschem_Logic/Inverter.sym # of pins=4
+** sym_path: /headless/eda/Hall_Xschem_Logic/Inverter.sym
+** sch_path: /headless/eda/Hall_Xschem_Logic/Inverter.sch
+.subckt Inverter VDD in out VSS
+*.PININFO VDD:B VSS:B in:B out:B
+XM1 out in VSS VSS sg13_lv_nmos w=1u l=0.13u ng=1
+XM2 out in VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1
+.ends
+
+
+* expanding   symbol:  /headless/eda/Hall_Xschem_Logic/Simple_OTA.sym # of pins=6
+** sym_path: /headless/eda/Hall_Xschem_Logic/Simple_OTA.sym
+** sch_path: /headless/eda/Hall_Xschem_Logic/Simple_OTA.sch
+.subckt Simple_OTA AMP_OUT IN_P VDD IN_N VSS ENA
+*.PININFO VDD:B IN_N:B IN_P:B AMP_OUT:B VSS:B ENA:B
+XM_LOAD1 net2 net2 VDD VDD sg13_lv_pmos w=4u l=0.5u ng=1
+XM_IN_P net2 IN_P net1 VSS sg13_lv_nmos w=4u l=0.5u ng=1
+XM_IN_N AMP_OUT IN_N net1 VSS sg13_lv_nmos w=4u l=0.5u ng=1
+XM_LOAD2 AMP_OUT net2 VDD VDD sg13_lv_pmos w=4u l=0.5u ng=1
+XM1 VBIAS_N VBIAS_N VSS VSS sg13_lv_nmos w=2u l=0.5u ng=1
+XR2 net3 VBIAS_N VSS rhigh w=0.5e-6 l=5e-6 m=1 b=0
+XM_TAIL1 net1 VBIAS_N VSS VSS sg13_lv_nmos w=2u l=0.5u ng=1
+XM2 net3 ENA VDD VDD sg13_lv_pmos w=1u l=0.13u ng=1
+.ends
+
+
+* expanding   symbol:  /headless/eda/Hall_Xschem_Logic/OTA-C.sym # of pins=6
+** sym_path: /headless/eda/Hall_Xschem_Logic/OTA-C.sym
+** sch_path: /headless/eda/Hall_Xschem_Logic/OTA-C.sch
+.subckt OTA-C AMP_OUT IN_P VDD IN_N VSS BIAS
+*.PININFO VDD:B IN_N:B IN_P:B AMP_OUT:B VSS:B BIAS:B
+XM_LOAD1 net1 net1 VDD VDD sg13_lv_pmos w=4u l=1u ng=1
+XM_IN_P net1 IN_P BIAS VSS sg13_lv_nmos w=4u l=1u ng=1
+XM_IN_N AMP_OUT IN_N BIAS VSS sg13_lv_nmos w=4u l=1u ng=1
+XM_LOAD2 AMP_OUT net1 VDD VDD sg13_lv_pmos w=4u l=1u ng=1
+.ends
+
+
+* expanding   symbol:  /headless/eda/Hall_Xschem_Logic/Bias_Gen.sym # of pins=4
+** sym_path: /headless/eda/Hall_Xschem_Logic/Bias_Gen.sym
+** sch_path: /headless/eda/Hall_Xschem_Logic/Bias_Gen.sch
+.subckt Bias_Gen BIAS VDD VSS ENA
+*.PININFO VDD:B VSS:B BIAS:B ENA:B
+XM1 VBIAS_N VBIAS_N VSS VSS sg13_lv_nmos w=10u l=1u ng=1
+XM_TAIL1 BIAS VBIAS_N VSS VSS sg13_lv_nmos w=1u l=5u ng=1
+XR1 net1 VBIAS_N VSS rhigh w=0.5e-6 l=400e-6 m=1 b=0
+XM2 net1 ENA VDD VDD sg13_lv_pmos w=1u l=0.13u ng=1
+.ends
+
+
+* expanding   symbol:  /headless/eda/Hall_Xschem_Logic/Schmitt_Comparator.sym # of pins=4
+** sym_path: /headless/eda/Hall_Xschem_Logic/Schmitt_Comparator.sym
+** sch_path: /headless/eda/Hall_Xschem_Logic/Schmitt_Comparator.sch
+.subckt Schmitt_Comparator VSS VDD IN OUT
+*.PININFO VSS:B VDD:B OUT:B IN:B
+XM1 net1 IN VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1
+XM2 net2 IN net1 VDD sg13_lv_pmos w=2u l=0.13u ng=1
+XM3 net2 IN net3 VSS sg13_lv_nmos w=4u l=0.13u ng=1
+XM4 net3 IN VSS VSS sg13_lv_nmos w=4u l=0.13u ng=1
+XM5 VSS net2 net1 VDD sg13_lv_pmos w=1u l=2u ng=1
+XM6 VDD net2 net3 VSS sg13_lv_nmos w=0.5u l=2u ng=1
+XC1 IN VSS cap_cmim w=2e-6 l=2e-6
+XC18 OUT VSS cap_cmim w=5e-6 l=5e-6
+XM7 OUT net2 VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1
+XM8 OUT net2 VSS VSS sg13_lv_nmos w=1u l=0.13u ng=1
+XC2 net2 VSS cap_cmim w=4e-6 l=4e-6
+.ends
+
+
+* expanding   symbol:  /headless/eda/Hall_Xschem_Logic/Small_Differential_Amplifier.sym # of pins=7
+** sym_path: /headless/eda/Hall_Xschem_Logic/Small_Differential_Amplifier.sym
+** sch_path: /headless/eda/Hall_Xschem_Logic/Small_Differential_Amplifier.sch
+.subckt Small_Differential_Amplifier OUT_N OUT_P VDD VSS IN_P IN_N ENA
+*.PININFO VDD:B IN_N:B IN_P:B OUT_N:B VSS:B OUT_P:B ENA:B
+XM2 VBIAS_N VBIAS_N VSS VSS sg13_lv_nmos w=2u l=1.0u ng=1
+XR1 net1 VBIAS_N VSS rhigh w=0.5e-6 l=30e-6 m=1 b=0
+XM_TAIL net2 VBIAS_N VSS VSS sg13_lv_nmos w=2u l=1.0u ng=1
+XM_IN_P OUT_P IN_P net2 VSS sg13_lv_nmos w=4u l=1.0u ng=1
+XM_IN_N OUT_N IN_N net2 VSS sg13_lv_nmos w=4u l=1.0u ng=1
+XR2 VDD OUT_P VSS rhigh w=0.5e-6 l=30e-6 m=1 b=0
+XR3 VDD OUT_N VSS rhigh w=0.5e-6 l=30e-6 m=1 b=0
+XM1 net1 ENA VDD VDD sg13_lv_pmos w=1u l=0.13u ng=1
+.ends
+
+
+* expanding   symbol:  /headless/eda/Hall_Xschem_Logic/CMOS_transmission_gate.sym # of pins=6
+** sym_path: /headless/eda/Hall_Xschem_Logic/CMOS_transmission_gate.sym
+** sch_path: /headless/eda/Hall_Xschem_Logic/CMOS_transmission_gate.sch
+.subckt CMOS_transmission_gate !Control vdd Vin Vout gnd Control
+*.PININFO Vout:B Vin:B !Control:B Control:B gnd:B vdd:B
+XM1 Vin Control Vout gnd sg13_lv_nmos w=0.5u l=0.13u ng=1
+XM2 Vin !Control Vout vdd sg13_lv_pmos w=1u l=0.13u ng=1
+.ends
+

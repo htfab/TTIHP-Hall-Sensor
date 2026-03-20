@@ -1,0 +1,6 @@
+** sch_path: /headless/eda/Hall_Xschem_Logic/Inverter.sch
+.subckt Inverter VDD in out VSS
+*.PININFO VDD:B VSS:B in:B out:B
+M1 out in VSS VSS sg13_lv_nmos w=1u l=0.13u ng=1
+M2 out in VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1
+.ends
