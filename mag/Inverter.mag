@@ -1,7 +1,7 @@
 magic
 tech ihp-sg13g2
 magscale 1 2
-timestamp 1774010850
+timestamp 1774031885
 << nwell >>
 rect 350 -1060 750 -530
 << pwell >>
@@ -30,45 +30,45 @@ rect 580 -1100 620 -1050
 << metal1 >>
 rect 410 -600 470 -590
 rect 410 -620 420 -600
-rect 140 -820 420 -620
-rect 140 -1050 340 -900
+rect 180 -820 420 -620
+rect 180 -1050 340 -900
 rect 410 -990 420 -820
 rect 460 -620 470 -600
 rect 460 -820 540 -620
 rect 460 -990 470 -820
 rect 630 -980 790 -910
-rect 630 -990 920 -980
+rect 630 -990 880 -980
 rect 410 -1000 470 -990
-rect 140 -1100 580 -1050
+rect 180 -1100 580 -1050
 rect 620 -1100 630 -1050
 rect 390 -1150 450 -1140
 rect 390 -1170 400 -1150
-rect 140 -1340 400 -1170
-rect 140 -1370 340 -1340
+rect 180 -1340 400 -1170
+rect 180 -1370 340 -1340
 rect 390 -1350 400 -1340
 rect 440 -1170 450 -1150
-rect 720 -1160 920 -990
+rect 720 -1160 880 -990
 rect 440 -1340 530 -1170
-rect 630 -1180 920 -1160
+rect 630 -1180 880 -1160
 rect 630 -1240 790 -1180
 rect 670 -1250 790 -1240
 rect 440 -1350 450 -1340
 rect 390 -1360 450 -1350
-use sg13_lv_nmos_MFNYAG  sg13_lv_nmos_MFNYAG_0
-timestamp 1774008572
+use sg13_lv_nmos_B9AHNM  sg13_lv_nmos_B9AHNM_0
+timestamp 1774031860
 transform 1 0 601 0 1 -1254
 box -81 -136 81 136
-use sg13_lv_pmos_RDN6D5  sg13_lv_pmos_RDN6D5_0
-timestamp 1774008572
+use sg13_lv_pmos_LD6KWR  sg13_lv_pmos_LD6KWR_0
+timestamp 1774031860
 transform 1 0 603 0 1 -798
 box -143 -262 143 262
 << labels >>
-flabel metal1 140 -1370 340 -1170 0 FreeSans 256 0 0 0 VSS
+flabel metal1 180 -1370 340 -1170 0 FreeSans 256 0 0 0 VSS
 port 3 nsew
-flabel metal1 140 -820 340 -620 0 FreeSans 256 0 0 0 VDD
+flabel metal1 180 -820 340 -620 0 FreeSans 256 0 0 0 VDD
 port 0 nsew
-flabel metal1 140 -1100 340 -900 0 FreeSans 256 0 0 0 in
+flabel metal1 180 -1100 340 -900 0 FreeSans 256 0 0 0 in
 port 1 nsew
-flabel metal1 720 -1180 920 -980 0 FreeSans 256 0 0 0 out
+flabel metal1 720 -1180 880 -980 0 FreeSans 256 0 0 0 out
 port 2 nsew
 << end >>

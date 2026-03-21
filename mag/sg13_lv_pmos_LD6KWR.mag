@@ -1,0 +1,38 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1774031860
+<< nwell >>
+rect -143 -262 143 262
+<< pmos >>
+rect -13 -200 13 200
+<< pdiff >>
+rect -81 186 -13 200
+rect -81 -186 -67 186
+rect -35 -186 -13 186
+rect -81 -200 -13 -186
+rect 13 186 81 200
+rect 13 -186 35 186
+rect 67 -186 81 186
+rect 13 -200 81 -186
+<< pdiffc >>
+rect -67 -186 -35 186
+rect 35 -186 67 186
+<< poly >>
+rect -13 200 13 236
+rect -13 -236 13 -200
+<< metal1 >>
+rect -77 -186 -67 186
+rect -35 -186 -25 186
+rect 25 -186 35 186
+rect 67 -186 77 186
+<< labels >>
+rlabel pdiffc -51 0 -51 0 0 D
+port 1 nsew
+rlabel pdiffc 51 0 51 0 0 S
+port 2 nsew
+<< properties >>
+string gencell sg13_lv_pmos
+string library sg13g2
+string parameters w 2 l 0.13 m 1 nf 1 diffcov 100 polycov 100 guard 0 glc 1 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 0 botc 0 poverlap 0 doverlap 1 lmin 0.13 wmin 0.15 class mosfet compatible {sg13_lv_pmos sg13_hv_pmos} full_metal 1 conn_gates 0 gate_ring 0 ccols 1 viasrc 0 viadrn 0 viagate 0 viagb 0 viagr 0 viagl 0 viagt 0 doports 1
+<< end >>

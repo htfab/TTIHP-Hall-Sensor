@@ -1,0 +1,122 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1774110438
+<< error_p >>
+rect -128 1009 -118 1041
+rect -26 1009 -16 1041
+rect 76 1009 86 1041
+<< nwell >>
+rect -245 -1081 245 1043
+<< pmos >>
+rect -115 -1019 -89 981
+rect -13 -1019 13 981
+rect 89 -1019 115 981
+<< pdiff >>
+rect -183 967 -115 981
+rect -183 -1005 -169 967
+rect -137 -1005 -115 967
+rect -183 -1019 -115 -1005
+rect -89 967 -13 981
+rect -89 -1005 -67 967
+rect -35 -1005 -13 967
+rect -89 -1019 -13 -1005
+rect 13 967 89 981
+rect 13 -1005 35 967
+rect 67 -1005 89 967
+rect 13 -1019 89 -1005
+rect 115 967 183 981
+rect 115 -1005 137 967
+rect 169 -1005 183 967
+rect 115 -1019 183 -1005
+<< pdiffc >>
+rect -169 -1005 -137 967
+rect -67 -1005 -35 967
+rect 35 -1005 67 967
+rect 137 -1005 169 967
+<< poly >>
+rect -132 1041 -72 1055
+rect -132 1009 -118 1041
+rect -86 1009 -72 1041
+rect -132 995 -72 1009
+rect -30 1041 30 1055
+rect -30 1009 -16 1041
+rect 16 1009 30 1041
+rect -30 995 30 1009
+rect 72 1041 132 1055
+rect 72 1009 86 1041
+rect 118 1009 132 1041
+rect 72 995 132 1009
+rect -115 981 -89 995
+rect -13 981 13 995
+rect 89 981 115 995
+rect -115 -1055 -89 -1019
+rect -13 -1055 13 -1019
+rect 89 -1055 115 -1019
+<< polycont >>
+rect -118 1009 -86 1041
+rect -16 1009 16 1041
+rect 86 1009 118 1041
+<< metal1 >>
+rect -128 1009 -118 1041
+rect -86 1009 -76 1041
+rect -26 1009 -16 1041
+rect 16 1009 26 1041
+rect 76 1009 86 1041
+rect 118 1009 128 1041
+rect -179 475 -169 967
+rect -183 474 -169 475
+rect -137 475 -127 967
+rect -137 474 -123 475
+rect -183 -512 -173 474
+rect -133 -512 -123 474
+rect -183 -513 -169 -512
+rect -179 -1005 -169 -513
+rect -137 -513 -123 -512
+rect -137 -1005 -127 -513
+rect -77 -1005 -67 967
+rect -35 -1005 -25 967
+rect 25 475 35 967
+rect 21 474 35 475
+rect 67 475 77 967
+rect 67 474 81 475
+rect 21 -512 31 474
+rect 71 -512 81 474
+rect 21 -513 35 -512
+rect 25 -1005 35 -513
+rect 67 -513 81 -512
+rect 67 -1005 77 -513
+rect 127 -1005 137 967
+rect 169 -1005 179 967
+<< via1 >>
+rect -173 -512 -169 474
+rect -169 -512 -137 474
+rect -137 -512 -133 474
+rect 31 -512 35 474
+rect 35 -512 67 474
+rect 67 -512 71 474
+<< metal2 >>
+rect -173 474 -133 483
+rect -173 -521 -133 -512
+rect 31 474 71 483
+rect 31 -521 71 -512
+<< labels >>
+rlabel pdiffc -153 -19 -153 -19 0 D0
+port 1 nsew
+rlabel polycont -102 1025 -102 1025 0 G0
+port 2 nsew
+rlabel pdiffc -51 -19 -51 -19 0 S1
+port 3 nsew
+rlabel polycont 0 1025 0 1025 0 G1
+port 4 nsew
+rlabel pdiffc 51 -19 51 -19 0 D2
+port 5 nsew
+rlabel pdiffc 153 -19 153 -19 0 S2
+port 6 nsew
+rlabel polycont 102 1025 102 1025 0 G2
+port 7 nsew
+<< properties >>
+string gencell sg13_lv_pmos
+string library sg13g2
+string parameters w 10 l 0.13 m 1 nf 3 diffcov 100 polycov 100 guard 0 glc 1 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 0 poverlap 0 doverlap 1 lmin 0.13 wmin 0.15 class mosfet compatible {sg13_lv_pmos sg13_hv_pmos} full_metal 1 conn_gates 0 gate_ring 0 ccols 1 viasrc 0 viadrn 50 viagate 0 viagb 0 viagr 0 viagl 0 viagt 0 doports 1
+<< end >>

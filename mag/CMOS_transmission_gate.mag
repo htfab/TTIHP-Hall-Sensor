@@ -1,56 +1,93 @@
 magic
 tech ihp-sg13g2
 magscale 1 2
-timestamp 1773998157
-<< error_s >>
-rect 67 -1851 107 -1793
-rect 10 -1925 50 -1867
-rect 124 -1925 164 -1867
-rect 174 -1875 236 -1804
-rect 303 -1839 343 -1793
-rect 280 -1843 366 -1839
-rect 303 -1851 343 -1843
-rect 246 -1875 286 -1867
-rect 360 -1875 400 -1867
-rect 174 -1879 296 -1875
-rect 350 -1876 410 -1875
-rect 174 -1913 286 -1879
-rect 174 -1917 296 -1913
-rect 350 -1916 400 -1876
-rect 350 -1917 410 -1916
-rect 174 -1926 236 -1917
-rect 246 -1925 286 -1917
-rect 360 -1925 400 -1917
-rect 67 -1999 107 -1941
-rect 303 -1949 343 -1941
-rect 280 -1953 366 -1949
-rect 303 -1999 343 -1953
+timestamp 1774116613
+<< nwell >>
+rect 530 -1380 690 -1330
+rect 530 -1520 660 -1380
+rect 670 -1520 690 -1380
+rect 530 -1550 690 -1520
+rect 530 -1580 640 -1550
+<< pwell >>
+rect 530 -1770 920 -1650
+rect 530 -1810 700 -1770
+rect 760 -1810 800 -1770
+rect 860 -1810 920 -1770
+rect 530 -1880 920 -1810
+rect 590 -1890 920 -1880
+<< psubdiff >>
+rect 570 -1720 650 -1700
+rect 570 -1830 590 -1720
+rect 630 -1830 650 -1720
+rect 570 -1850 650 -1830
+<< nsubdiff >>
+rect 580 -1400 660 -1380
+rect 580 -1510 600 -1400
+rect 640 -1510 660 -1400
+rect 580 -1530 660 -1510
+<< psubdiffcont >>
+rect 590 -1830 630 -1720
+<< nsubdiffcont >>
+rect 600 -1510 640 -1400
+<< poly >>
+rect 740 -1260 830 -1240
+rect 740 -1300 760 -1260
+rect 810 -1300 830 -1260
+rect 740 -1360 830 -1300
+rect 730 -1910 830 -1840
+rect 730 -1950 750 -1910
+rect 810 -1950 830 -1910
+rect 730 -1970 830 -1950
+<< polycont >>
+rect 760 -1300 810 -1260
+rect 750 -1950 810 -1910
 << metal1 >>
-rect 0 0 200 200
-rect 0 -400 200 -200
-rect 0 -800 200 -600
-rect 0 -1200 200 -1000
-rect 0 -1600 200 -1400
-rect 0 -2000 200 -1800
-use sg13_lv_nmos_8QWFDF  XM1
-timestamp 1773998157
-transform 1 0 87 0 1 -1896
-box -87 -104 87 104
-use sg13_lv_pmos_7RWFQ4  XM2
-timestamp 1773998157
-transform 1 0 323 0 1 -1896
-box -149 -104 149 104
+rect 690 -1260 880 -1120
+rect 690 -1300 760 -1260
+rect 810 -1300 880 -1260
+rect 380 -1390 530 -1300
+rect 690 -1320 880 -1300
+rect 380 -1400 650 -1390
+rect 380 -1500 600 -1400
+rect 590 -1510 600 -1500
+rect 640 -1510 650 -1400
+rect 380 -1560 710 -1550
+rect 860 -1560 1070 -1550
+rect 380 -1640 760 -1560
+rect 380 -1750 530 -1640
+rect 580 -1720 640 -1710
+rect 580 -1800 590 -1720
+rect 380 -1830 590 -1800
+rect 630 -1830 640 -1720
+rect 700 -1740 760 -1640
+rect 810 -1690 1070 -1560
+rect 810 -1740 860 -1690
+rect 920 -1750 1070 -1690
+rect 380 -1880 640 -1830
+rect 380 -2000 530 -1880
+rect 690 -1910 880 -1890
+rect 690 -1950 750 -1910
+rect 810 -1950 880 -1910
+rect 690 -2090 880 -1950
+use sg13_lv_nmos_TCSPJJ  XM1
+timestamp 1774116613
+transform 1 0 781 0 1 -1764
+box -81 -86 81 86
+use sg13_lv_pmos_LDAKWR  XM2
+timestamp 1774116613
+transform 1 0 783 0 1 -1488
+box -143 -162 143 162
 << labels >>
-flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 !Control
+flabel metal1 690 -1320 880 -1120 0 FreeSans 256 0 0 0 !Control
 port 0 nsew
-flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 vdd
-port 1 nsew
-flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 Vin
-port 2 nsew
-flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 Vout
+flabel metal1 920 -1750 1070 -1550 0 FreeSans 256 0 0 0 Vout
 port 3 nsew
-flabel metal1 0 -1600 200 -1400 0 FreeSans 256 0 0 0 gnd
+flabel metal1 380 -1750 530 -1550 0 FreeSans 256 0 0 0 Vin
+port 2 nsew
+flabel metal1 380 -2000 530 -1800 0 FreeSans 256 0 0 0 gnd
 port 4 nsew
-flabel metal1 0 -2000 200 -1800 0 FreeSans 256 0 0 0 Control
+flabel metal1 380 -1500 530 -1300 0 FreeSans 256 0 0 0 vdd
+port 1 nsew
+flabel metal1 690 -2090 880 -1890 0 FreeSans 256 0 0 0 Control
 port 5 nsew
 << end >>

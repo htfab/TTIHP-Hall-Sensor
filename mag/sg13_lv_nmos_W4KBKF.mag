@@ -1,0 +1,66 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1774033853
+<< nmos >>
+rect -100 -1000 100 1000
+<< ndiff >>
+rect -168 986 -100 1000
+rect -168 -986 -154 986
+rect -122 -986 -100 986
+rect -168 -1000 -100 -986
+rect 100 986 168 1000
+rect 100 -986 122 986
+rect 154 -986 168 986
+rect 100 -1000 168 -986
+<< ndiffc >>
+rect -154 -986 -122 986
+rect 122 -986 154 986
+<< poly >>
+rect -100 1060 100 1074
+rect -100 1028 -86 1060
+rect 86 1028 100 1060
+rect -100 1000 100 1028
+rect -100 -1028 100 -1000
+rect -100 -1060 -86 -1028
+rect 86 -1060 100 -1028
+rect -100 -1074 100 -1060
+<< polycont >>
+rect -86 1028 86 1060
+rect -86 -1060 86 -1028
+<< metal1 >>
+rect -96 1028 -86 1060
+rect 86 1028 96 1060
+rect -164 198 -154 986
+rect -168 197 -154 198
+rect -122 198 -112 986
+rect -122 197 -108 198
+rect -168 -197 -158 197
+rect -118 -197 -108 197
+rect -168 -198 -154 -197
+rect -164 -986 -154 -198
+rect -122 -198 -108 -197
+rect -122 -986 -112 -198
+rect 112 -986 122 986
+rect 154 -986 164 986
+rect -96 -1060 -86 -1028
+rect 86 -1060 96 -1028
+<< via1 >>
+rect -158 -197 -154 197
+rect -154 -197 -122 197
+rect -122 -197 -118 197
+<< metal2 >>
+rect -158 197 -118 206
+rect -158 -206 -118 -197
+<< labels >>
+rlabel ndiffc -138 0 -138 0 0 D
+port 1 nsew
+rlabel ndiffc 138 0 138 0 0 S
+port 2 nsew
+rlabel polycont 0 1044 0 1044 0 G
+port 3 nsew
+<< properties >>
+string gencell sg13_lv_nmos
+string library sg13g2
+string parameters w 10 l 1 m 1 nf 1 diffcov 100 polycov 100 guard 0 glc 1 grc 0 gtc 0 gbc 0 tbcov 100 rlcov 100 topc 1 botc 1 poverlap 0 doverlap 1 lmin 0.13 wmin 0.15 class mosfet compatible {sg13_lv_nmos sg13_hv_nmos} full_metal 0 conn_gates 0 gate_ring 0 doports 1 viasrc 0 viadrn 20 viagate 0 ccols 1 viagb 0 viagr 0 viagl 0 viagt 0
+<< end >>

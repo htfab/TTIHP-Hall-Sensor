@@ -1,0 +1,112 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1774099373
+<< error_p >>
+rect -128 509 -118 541
+rect -26 509 -16 541
+rect 76 509 86 541
+<< nmos >>
+rect -115 -519 -89 481
+rect -13 -519 13 481
+rect 89 -519 115 481
+<< ndiff >>
+rect -183 467 -115 481
+rect -183 -505 -169 467
+rect -137 -505 -115 467
+rect -183 -519 -115 -505
+rect -89 467 -13 481
+rect -89 -505 -67 467
+rect -35 -505 -13 467
+rect -89 -519 -13 -505
+rect 13 467 89 481
+rect 13 -505 35 467
+rect 67 -505 89 467
+rect 13 -519 89 -505
+rect 115 467 183 481
+rect 115 -505 137 467
+rect 169 -505 183 467
+rect 115 -519 183 -505
+<< ndiffc >>
+rect -169 -505 -137 467
+rect -67 -505 -35 467
+rect 35 -505 67 467
+rect 137 -505 169 467
+<< poly >>
+rect -132 541 -72 555
+rect -132 509 -118 541
+rect -86 509 -72 541
+rect -132 495 -72 509
+rect -30 541 30 555
+rect -30 509 -16 541
+rect 16 509 30 541
+rect -30 495 30 509
+rect 72 541 132 555
+rect 72 509 86 541
+rect 118 509 132 541
+rect 72 495 132 509
+rect -115 481 -89 495
+rect -13 481 13 495
+rect 89 481 115 495
+rect -115 -555 -89 -519
+rect -13 -555 13 -519
+rect 89 -555 115 -519
+<< polycont >>
+rect -118 509 -86 541
+rect -16 509 16 541
+rect 86 509 118 541
+<< metal1 >>
+rect -128 509 -118 541
+rect -86 509 -76 541
+rect -26 509 -16 541
+rect 16 509 26 541
+rect 76 509 86 541
+rect 118 509 128 541
+rect -183 466 -169 467
+rect -137 466 -123 467
+rect -183 -504 -173 466
+rect -133 -504 -123 466
+rect -183 -505 -169 -504
+rect -137 -505 -123 -504
+rect -77 -505 -67 467
+rect -35 -505 -25 467
+rect 21 466 35 467
+rect 67 466 81 467
+rect 21 -504 31 466
+rect 71 -504 81 466
+rect 21 -505 35 -504
+rect 67 -505 81 -504
+rect 127 -505 137 467
+rect 169 -505 179 467
+<< via1 >>
+rect -173 -504 -169 466
+rect -169 -504 -137 466
+rect -137 -504 -133 466
+rect 31 -504 35 466
+rect 35 -504 67 466
+rect 67 -504 71 466
+<< metal2 >>
+rect -173 466 -133 475
+rect -173 -513 -133 -504
+rect 31 466 71 475
+rect 31 -513 71 -504
+<< labels >>
+rlabel ndiffc -153 -19 -153 -19 0 D0
+port 1 nsew
+rlabel polycont -102 525 -102 525 0 G0
+port 2 nsew
+rlabel ndiffc -51 -19 -51 -19 0 S1
+port 3 nsew
+rlabel polycont 0 525 0 525 0 G1
+port 4 nsew
+rlabel ndiffc 51 -19 51 -19 0 D2
+port 5 nsew
+rlabel ndiffc 153 -19 153 -19 0 S2
+port 6 nsew
+rlabel polycont 102 525 102 525 0 G2
+port 7 nsew
+<< properties >>
+string gencell sg13_lv_nmos
+string library sg13g2
+string parameters w 5 l 0.13 m 1 nf 3 diffcov 100 polycov 100 guard 0 glc 1 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 0 poverlap 0 doverlap 1 lmin 0.13 wmin 0.15 class mosfet compatible {sg13_lv_nmos sg13_hv_nmos} full_metal 1 conn_gates 0 gate_ring 0 doports 1 viasrc 0 viadrn 100 viagate 0 ccols 1 viagb 0 viagr 0 viagl 0 viagt 0
+<< end >>
