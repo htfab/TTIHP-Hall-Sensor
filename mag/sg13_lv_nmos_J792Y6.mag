@@ -1,0 +1,60 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1774209932
+<< error_p >>
+rect -26 59 -16 91
+rect -71 -63 -31 25
+<< nmos >>
+rect -13 -69 13 31
+<< ndiff >>
+rect -81 17 -13 31
+rect -81 -55 -67 17
+rect -35 -55 -13 17
+rect -81 -69 -13 -55
+rect 13 17 81 31
+rect 13 -55 35 17
+rect 67 -55 81 17
+rect 13 -69 81 -55
+<< ndiffc >>
+rect -67 -55 -35 17
+rect 35 -55 67 17
+<< poly >>
+rect -30 91 30 105
+rect -30 59 -16 91
+rect 16 59 30 91
+rect -30 45 30 59
+rect -13 31 13 45
+rect -13 -105 13 -69
+<< polycont >>
+rect -16 59 16 91
+<< metal1 >>
+rect -26 59 -16 91
+rect 16 59 26 91
+rect -81 16 -67 17
+rect -35 16 -21 17
+rect -81 -54 -71 16
+rect -31 -54 -21 16
+rect -81 -55 -67 -54
+rect -35 -55 -21 -54
+rect 25 -55 35 17
+rect 67 -55 77 17
+<< via1 >>
+rect -71 -54 -67 16
+rect -67 -54 -35 16
+rect -35 -54 -31 16
+<< metal2 >>
+rect -71 16 -31 25
+rect -71 -63 -31 -54
+<< labels >>
+rlabel ndiffc -51 -19 -51 -19 0 D
+port 1 nsew
+rlabel ndiffc 51 -19 51 -19 0 S
+port 2 nsew
+rlabel polycont 0 75 0 75 0 G
+port 3 nsew
+<< properties >>
+string gencell sg13_lv_nmos
+string library sg13g2
+string parameters w 0.5 l 0.13 m 1 nf 1 diffcov 100 polycov 100 guard 0 glc 1 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 0 poverlap 0 doverlap 1 lmin 0.13 wmin 0.15 class mosfet compatible {sg13_lv_nmos sg13_hv_nmos} full_metal 1 conn_gates 0 gate_ring 0 doports 1 viasrc 0 viadrn 100 viagate 0 ccols 1 viagb 0 viagr 0 viagl 0 viagt 0
+<< end >>

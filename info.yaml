@@ -5,7 +5,7 @@ project:
   discord:      "hecmac"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Project to implement a Hall Effect Sensor on the IHP26a shuttle."      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     25175000       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 200x150 uM.
   tiles: "1x2"          # Valid values for analog projects: 1x2, 2x2
@@ -34,14 +34,14 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "R1"
+  uo[1]: "G1"
+  uo[2]: "B1"
+  uo[3]: "VSync"
+  uo[4]: "R0"
+  uo[5]: "G0"
+  uo[6]: "B0"
+  uo[7]: "HSync"
 
   # Bidirectional pins
   uio[0]: ""

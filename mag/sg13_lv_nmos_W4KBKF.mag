@@ -1,7 +1,7 @@
 magic
 tech ihp-sg13g2
 magscale 1 2
-timestamp 1774033853
+timestamp 1774202959
 << nmos >>
 rect -100 -1000 100 1000
 << ndiff >>

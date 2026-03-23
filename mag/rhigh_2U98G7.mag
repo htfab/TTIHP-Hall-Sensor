@@ -1,0 +1,97 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1774209932
+<< error_p >>
+rect -148 1251 -48 1252
+rect 244 1251 344 1252
+rect -330 -1250 -258 -1176
+rect 258 -1250 330 -1176
+<< pwell >>
+rect -548 -1455 548 1455
+<< psubdiff >>
+rect -486 1379 486 1393
+rect -486 1347 -394 1379
+rect 394 1347 486 1379
+rect -486 1333 486 1347
+rect -486 1301 -426 1333
+rect -486 -1301 -472 1301
+rect -440 -1301 -426 1301
+rect 426 1301 486 1333
+rect -486 -1333 -426 -1301
+rect 426 -1301 440 1301
+rect 472 -1301 486 1301
+rect 426 -1333 486 -1301
+rect -486 -1347 486 -1333
+rect -486 -1379 -394 -1347
+rect 394 -1379 486 -1347
+rect -486 -1393 486 -1379
+<< psubdiffcont >>
+rect -394 1347 394 1379
+rect -472 -1301 -440 1301
+rect 440 -1301 472 1301
+rect -394 -1379 394 -1347
+<< poly >>
+rect -344 -1205 -244 -1165
+rect -344 -1237 -330 -1205
+rect -258 -1237 -244 -1205
+rect -344 -1251 -244 -1237
+rect 244 -1205 344 -1165
+rect 244 -1237 258 -1205
+rect 330 -1237 344 -1205
+rect 244 -1251 344 -1237
+<< polycont >>
+rect -330 -1237 -258 -1205
+rect 258 -1237 330 -1205
+<< xpolyres >>
+rect -344 1251 -148 1252
+rect 48 1251 244 1252
+rect -344 1152 -48 1251
+rect -344 -1165 -244 1152
+rect -148 -1025 -48 1152
+rect 48 1152 344 1251
+rect 48 -1025 148 1152
+rect -148 -1125 148 -1025
+rect 244 -1165 344 1152
+<< metal1 >>
+rect -472 1347 -394 1379
+rect 394 1347 472 1379
+rect -472 1301 -440 1347
+rect 440 1301 472 1347
+rect -340 -1185 -248 -1184
+rect -340 -1241 -330 -1185
+rect -258 -1241 -248 -1185
+rect -340 -1242 -248 -1241
+rect 248 -1185 340 -1184
+rect 248 -1241 258 -1185
+rect 330 -1241 340 -1185
+rect 248 -1242 340 -1241
+rect -472 -1347 -440 -1301
+rect 440 -1347 472 -1301
+rect -472 -1379 -394 -1347
+rect 394 -1379 472 -1347
+<< via1 >>
+rect -330 -1205 -258 -1185
+rect -330 -1237 -258 -1205
+rect -330 -1241 -258 -1237
+rect 258 -1205 330 -1185
+rect 258 -1237 330 -1205
+rect 258 -1241 330 -1237
+<< metal2 >>
+rect -330 -1185 -258 -1176
+rect -330 -1250 -258 -1241
+rect 258 -1185 330 -1176
+rect 258 -1250 330 -1241
+<< labels >>
+rlabel psubdiffcont 0 -1363 0 -1363 0 B
+port 1 nsew
+rlabel polycont -294 -1221 -294 -1221 0 R1
+port 2 nsew
+rlabel polycont 294 -1221 294 -1221 0 R2
+port 3 nsew
+<< properties >>
+string FIXED_BBOX -456 -1363 456 1363
+string gencell rhigh
+string library sg13g2
+string parameters w 0.50 l 11.88475 m 1 nx 4 wmin 0.50 lmin 0.50 class resistor rho 1360 val 133.388k dummy 0 dw 0.0 term 0.0 sterm 0.0 caplen 0 guard 1 glc 1 grc 1 gtc 1 gbc 1 snake 1 full_metal 1 n_guard 0 hv_guard 0 vias 1 viagb 0 viagt 0 viagl 0 viagr 0 doports 1
+<< end >>

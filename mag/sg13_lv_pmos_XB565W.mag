@@ -1,0 +1,47 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1774202959
+<< nwell >>
+rect -230 -481 230 443
+<< pmos >>
+rect -100 -419 100 381
+<< pdiff >>
+rect -168 367 -100 381
+rect -168 -405 -154 367
+rect -122 -405 -100 367
+rect -168 -419 -100 -405
+rect 100 367 168 381
+rect 100 -405 122 367
+rect 154 -405 168 367
+rect 100 -419 168 -405
+<< pdiffc >>
+rect -154 -405 -122 367
+rect 122 -405 154 367
+<< poly >>
+rect -100 441 100 455
+rect -100 409 -86 441
+rect 86 409 100 441
+rect -100 381 100 409
+rect -100 -455 100 -419
+<< polycont >>
+rect -86 409 86 441
+<< metal1 >>
+rect -96 409 -86 441
+rect 86 409 96 441
+rect -164 -405 -154 367
+rect -122 -405 -112 367
+rect 112 -405 122 367
+rect 154 -405 164 367
+<< labels >>
+rlabel pdiffc -138 -19 -138 -19 0 D
+port 1 nsew
+rlabel pdiffc 138 -19 138 -19 0 S
+port 2 nsew
+rlabel polycont 0 425 0 425 0 G
+port 3 nsew
+<< properties >>
+string gencell sg13_lv_pmos
+string library sg13g2
+string parameters w 4 l 1 m 1 nf 1 diffcov 100 polycov 100 guard 0 glc 1 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 0 poverlap 0 doverlap 1 lmin 0.13 wmin 0.15 class mosfet compatible {sg13_lv_pmos sg13_hv_pmos} full_metal 1 conn_gates 0 gate_ring 0 ccols 1 viasrc 0 viadrn 0 viagate 0 viagb 0 viagr 0 viagl 0 viagt 0 doports 1
+<< end >>

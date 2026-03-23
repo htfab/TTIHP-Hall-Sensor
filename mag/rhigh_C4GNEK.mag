@@ -1,0 +1,99 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1774246809
+<< error_p >>
+rect -149 585 -49 586
+rect 243 585 343 586
+rect 343 -459 344 -359
+rect -331 -584 -259 -510
+rect 258 -584 330 -510
+<< pwell >>
+rect -549 -789 549 789
+<< psubdiff >>
+rect -487 713 487 727
+rect -487 681 -395 713
+rect 395 681 487 713
+rect -487 667 487 681
+rect -487 635 -427 667
+rect -487 -635 -473 635
+rect -441 -635 -427 635
+rect 427 635 487 667
+rect -487 -667 -427 -635
+rect 427 -635 441 635
+rect 473 -635 487 635
+rect 427 -667 487 -635
+rect -487 -681 487 -667
+rect -487 -713 -395 -681
+rect 395 -713 487 -681
+rect -487 -727 487 -713
+<< psubdiffcont >>
+rect -395 681 395 713
+rect -473 -635 -441 635
+rect 441 -635 473 635
+rect -395 -713 395 -681
+<< poly >>
+rect -345 -539 -245 -499
+rect -345 -571 -331 -539
+rect -259 -571 -245 -539
+rect -345 -585 -245 -571
+rect 244 -539 344 -499
+rect 244 -571 258 -539
+rect 330 -571 344 -539
+rect 244 -585 344 -571
+<< polycont >>
+rect -331 -571 -259 -539
+rect 258 -571 330 -539
+<< xpolyres >>
+rect -345 585 -149 586
+rect 47 585 243 586
+rect -345 486 -49 585
+rect -345 -499 -245 486
+rect -149 -359 -49 486
+rect 47 486 343 585
+rect 47 -359 147 486
+rect -149 -459 147 -359
+rect 243 -459 343 486
+rect 244 -499 344 -459
+<< metal1 >>
+rect -473 681 -395 713
+rect 395 681 473 713
+rect -473 635 -441 681
+rect 441 635 473 681
+rect -341 -519 -249 -518
+rect -341 -575 -331 -519
+rect -259 -575 -249 -519
+rect -341 -576 -249 -575
+rect 248 -519 340 -518
+rect 248 -575 258 -519
+rect 330 -575 340 -519
+rect 248 -576 340 -575
+rect -473 -681 -441 -635
+rect 441 -681 473 -635
+rect -473 -713 -395 -681
+rect 395 -713 473 -681
+<< via1 >>
+rect -331 -539 -259 -519
+rect -331 -571 -259 -539
+rect -331 -575 -259 -571
+rect 258 -539 330 -519
+rect 258 -571 330 -539
+rect 258 -575 330 -571
+<< metal2 >>
+rect -331 -519 -259 -510
+rect -331 -584 -259 -575
+rect 258 -519 330 -510
+rect 258 -584 330 -575
+<< labels >>
+rlabel psubdiffcont 0 -697 0 -697 0 B
+port 1 nsew
+rlabel polycont -295 -555 -295 -555 0 R1
+port 2 nsew
+rlabel polycont 294 -555 294 -555 0 R2
+port 3 nsew
+<< properties >>
+string FIXED_BBOX -457 -697 457 697
+string gencell rhigh
+string library sg13g2
+string parameters w 0.501 l 5.224 m 1 nx 4 wmin 0.50 lmin 0.50 class resistor rho 1360 val 60.803k dummy 0 dw 0.0 term 0.0 sterm 0.0 caplen 0 guard 1 glc 1 grc 1 gtc 1 gbc 1 snake 1 full_metal 1 n_guard 0 hv_guard 0 vias 1 viagb 0 viagt 0 viagl 0 viagr 0 doports 1
+<< end >>

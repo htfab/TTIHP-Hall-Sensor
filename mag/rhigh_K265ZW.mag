@@ -1,0 +1,87 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1774184792
+<< error_p >>
+rect -36 19411 36 19485
+rect -36 -19485 36 -19411
+<< pwell >>
+rect -254 -19690 254 19690
+<< psubdiff >>
+rect -192 19614 192 19628
+rect -192 19582 -100 19614
+rect 100 19582 192 19614
+rect -192 19568 192 19582
+rect -192 19536 -132 19568
+rect -192 -19536 -178 19536
+rect -146 -19536 -132 19536
+rect 132 19536 192 19568
+rect -192 -19568 -132 -19536
+rect 132 -19536 146 19536
+rect 178 -19536 192 19536
+rect 132 -19568 192 -19536
+rect -192 -19582 192 -19568
+rect -192 -19614 -100 -19582
+rect 100 -19614 192 -19582
+rect -192 -19628 192 -19614
+<< psubdiffcont >>
+rect -100 19582 100 19614
+rect -178 -19536 -146 19536
+rect 146 -19536 178 19536
+rect -100 -19614 100 -19582
+<< poly >>
+rect -50 19472 50 19486
+rect -50 19440 -36 19472
+rect 36 19440 50 19472
+rect -50 19400 50 19440
+rect -50 -19440 50 -19400
+rect -50 -19472 -36 -19440
+rect 36 -19472 50 -19440
+rect -50 -19486 50 -19472
+<< polycont >>
+rect -36 19440 36 19472
+rect -36 -19472 36 -19440
+<< xpolyres >>
+rect -50 -19400 50 19400
+<< metal1 >>
+rect -178 19582 -100 19614
+rect 100 19582 178 19614
+rect -178 19536 -146 19582
+rect 146 19536 178 19582
+rect -46 19476 46 19477
+rect -46 19420 -36 19476
+rect 36 19420 46 19476
+rect -46 19419 46 19420
+rect -46 -19420 46 -19419
+rect -46 -19476 -36 -19420
+rect 36 -19476 46 -19420
+rect -46 -19477 46 -19476
+rect -178 -19582 -146 -19536
+rect 146 -19582 178 -19536
+rect -178 -19614 -100 -19582
+rect 100 -19614 178 -19582
+<< via1 >>
+rect -36 19472 36 19476
+rect -36 19440 36 19472
+rect -36 19420 36 19440
+rect -36 -19440 36 -19420
+rect -36 -19472 36 -19440
+rect -36 -19476 36 -19472
+<< metal2 >>
+rect -36 19476 36 19485
+rect -36 19411 36 19420
+rect -36 -19420 36 -19411
+rect -36 -19485 36 -19476
+<< labels >>
+rlabel psubdiffcont 0 -19598 0 -19598 0 B
+port 1 nsew
+rlabel polycont 0 19456 0 19456 0 R1
+port 2 nsew
+rlabel polycont 0 -19456 0 -19456 0 R2
+port 3 nsew
+<< properties >>
+string FIXED_BBOX -162 -19598 162 19598
+string gencell rhigh
+string library sg13g2
+string parameters w 0.50 l 194 m 1 nx 1 wmin 0.50 lmin 0.50 class resistor rho 1360 val 527.68k dummy 0 dw 0.0 term 0.0 sterm 0.0 caplen 0 guard 1 glc 1 grc 1 gtc 1 gbc 1 snake 0 full_metal 1 n_guard 0 hv_guard 0 vias 1 viagb 0 viagt 0 viagl 0 viagr 0 doports 1
+<< end >>

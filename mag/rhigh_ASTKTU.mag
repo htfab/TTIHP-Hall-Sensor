@@ -1,0 +1,87 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1774202959
+<< error_p >>
+rect -36 511 36 585
+rect -36 -585 36 -511
+<< pwell >>
+rect -254 -790 254 790
+<< psubdiff >>
+rect -192 714 192 728
+rect -192 682 -100 714
+rect 100 682 192 714
+rect -192 668 192 682
+rect -192 636 -132 668
+rect -192 -636 -178 636
+rect -146 -636 -132 636
+rect 132 636 192 668
+rect -192 -668 -132 -636
+rect 132 -636 146 636
+rect 178 -636 192 636
+rect 132 -668 192 -636
+rect -192 -682 192 -668
+rect -192 -714 -100 -682
+rect 100 -714 192 -682
+rect -192 -728 192 -714
+<< psubdiffcont >>
+rect -100 682 100 714
+rect -178 -636 -146 636
+rect 146 -636 178 636
+rect -100 -714 100 -682
+<< poly >>
+rect -50 572 50 586
+rect -50 540 -36 572
+rect 36 540 50 572
+rect -50 500 50 540
+rect -50 -540 50 -500
+rect -50 -572 -36 -540
+rect 36 -572 50 -540
+rect -50 -586 50 -572
+<< polycont >>
+rect -36 540 36 572
+rect -36 -572 36 -540
+<< xpolyres >>
+rect -50 -500 50 500
+<< metal1 >>
+rect -178 682 -100 714
+rect 100 682 178 714
+rect -178 636 -146 682
+rect 146 636 178 682
+rect -46 576 46 577
+rect -46 520 -36 576
+rect 36 520 46 576
+rect -46 519 46 520
+rect -46 -520 46 -519
+rect -46 -576 -36 -520
+rect 36 -576 46 -520
+rect -46 -577 46 -576
+rect -178 -682 -146 -636
+rect 146 -682 178 -636
+rect -178 -714 -100 -682
+rect 100 -714 178 -682
+<< via1 >>
+rect -36 572 36 576
+rect -36 540 36 572
+rect -36 520 36 540
+rect -36 -540 36 -520
+rect -36 -572 36 -540
+rect -36 -576 36 -572
+<< metal2 >>
+rect -36 576 36 585
+rect -36 511 36 520
+rect -36 -520 36 -511
+rect -36 -585 36 -576
+<< labels >>
+rlabel psubdiffcont 0 -698 0 -698 0 B
+port 1 nsew
+rlabel polycont 0 556 0 556 0 R1
+port 2 nsew
+rlabel polycont 0 -556 0 -556 0 R2
+port 3 nsew
+<< properties >>
+string FIXED_BBOX -162 -698 162 698
+string gencell rhigh
+string library sg13g2
+string parameters w 0.50 l 5 m 1 nx 1 wmin 0.50 lmin 0.50 class resistor rho 1360 val 13.6k dummy 0 dw 0.0 term 0.0 sterm 0.0 caplen 0 guard 1 glc 1 grc 1 gtc 1 gbc 1 snake 0 full_metal 1 n_guard 0 hv_guard 0 vias 1 viagb 0 viagt 0 viagl 0 viagr 0 doports 1
+<< end >>

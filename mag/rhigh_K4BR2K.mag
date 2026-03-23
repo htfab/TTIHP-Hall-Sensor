@@ -1,0 +1,93 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1774209932
+<< error_p >>
+rect -330 -911 -258 -837
+rect 258 -911 330 -837
+<< pwell >>
+rect -548 -1116 548 1116
+<< psubdiff >>
+rect -486 1040 486 1054
+rect -486 1008 -394 1040
+rect 394 1008 486 1040
+rect -486 994 486 1008
+rect -486 962 -426 994
+rect -486 -962 -472 962
+rect -440 -962 -426 962
+rect 426 962 486 994
+rect -486 -994 -426 -962
+rect 426 -962 440 962
+rect 472 -962 486 962
+rect 426 -994 486 -962
+rect -486 -1008 486 -994
+rect -486 -1040 -394 -1008
+rect 394 -1040 486 -1008
+rect -486 -1054 486 -1040
+<< psubdiffcont >>
+rect -394 1008 394 1040
+rect -472 -962 -440 962
+rect 440 -962 472 962
+rect -394 -1040 394 -1008
+<< poly >>
+rect -344 -866 -244 -826
+rect -344 -898 -330 -866
+rect -258 -898 -244 -866
+rect -344 -912 -244 -898
+rect 244 -866 344 -826
+rect 244 -898 258 -866
+rect 330 -898 344 -866
+rect 244 -912 344 -898
+<< polycont >>
+rect -330 -898 -258 -866
+rect 258 -898 330 -866
+<< xpolyres >>
+rect -344 812 -48 912
+rect -344 -826 -244 812
+rect -148 -686 -48 812
+rect 48 812 344 912
+rect 48 -686 148 812
+rect -148 -786 148 -686
+rect 244 -826 344 812
+<< metal1 >>
+rect -472 1008 -394 1040
+rect 394 1008 472 1040
+rect -472 962 -440 1008
+rect 440 962 472 1008
+rect -340 -846 -248 -845
+rect -340 -902 -330 -846
+rect -258 -902 -248 -846
+rect -340 -903 -248 -902
+rect 248 -846 340 -845
+rect 248 -902 258 -846
+rect 330 -902 340 -846
+rect 248 -903 340 -902
+rect -472 -1008 -440 -962
+rect 440 -1008 472 -962
+rect -472 -1040 -394 -1008
+rect 394 -1040 472 -1008
+<< via1 >>
+rect -330 -866 -258 -846
+rect -330 -898 -258 -866
+rect -330 -902 -258 -898
+rect 258 -866 330 -846
+rect 258 -898 330 -866
+rect 258 -902 330 -898
+<< metal2 >>
+rect -330 -846 -258 -837
+rect -330 -911 -258 -902
+rect 258 -846 330 -837
+rect 258 -911 330 -902
+<< labels >>
+rlabel psubdiffcont 0 -1024 0 -1024 0 B
+port 1 nsew
+rlabel polycont -294 -882 -294 -882 0 R1
+port 2 nsew
+rlabel polycont 294 -882 294 -882 0 R2
+port 3 nsew
+<< properties >>
+string FIXED_BBOX -456 -1024 456 1024
+string gencell rhigh
+string library sg13g2
+string parameters w 0.50 l 8.489 m 1 nx 4 wmin 0.50 lmin 0.50 class resistor rho 1360 val 96.44k dummy 0 dw 0.0 term 0.0 sterm 0.0 caplen 0 guard 1 glc 1 grc 1 gtc 1 gbc 1 snake 1 full_metal 1 n_guard 0 hv_guard 0 vias 1 viagb 0 viagt 0 viagl 0 viagr 0 doports 1
+<< end >>

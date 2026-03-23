@@ -1,0 +1,8 @@
+magic
+tech ihp-sg13g2
+timestamp 1774202959
+<< properties >>
+string gencell rhigh
+string library sg13g2
+string parameters w 0.50 l 194/8 m 1 nx 8 wmin 0.50 lmin 0.50 class resistor rho 1360 val 65.28k dummy 0 dw 0.0 term 0.0 sterm 0.0 caplen 0 guard 1 glc 1 grc 1 gtc 1 gbc 1 snake 0 full_metal 1 n_guard 0 hv_guard 0 vias 1 viagb 0 viagt 0 viagl 0 viagr 0 doports 1
+<< end >>

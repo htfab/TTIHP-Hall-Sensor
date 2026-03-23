@@ -1,0 +1,89 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1774202959
+<< error_p >>
+rect -134 -1096 -62 -1022
+rect 62 -1096 134 -1022
+<< pwell >>
+rect -352 -1301 352 1301
+<< psubdiff >>
+rect -290 1225 290 1239
+rect -290 1193 -198 1225
+rect 198 1193 290 1225
+rect -290 1179 290 1193
+rect -290 1147 -230 1179
+rect -290 -1147 -276 1147
+rect -244 -1147 -230 1147
+rect 230 1147 290 1179
+rect -290 -1179 -230 -1147
+rect 230 -1147 244 1147
+rect 276 -1147 290 1147
+rect 230 -1179 290 -1147
+rect -290 -1193 290 -1179
+rect -290 -1225 -198 -1193
+rect 198 -1225 290 -1193
+rect -290 -1239 290 -1225
+<< psubdiffcont >>
+rect -198 1193 198 1225
+rect -276 -1147 -244 1147
+rect 244 -1147 276 1147
+rect -198 -1225 198 -1193
+<< poly >>
+rect -148 -1051 -48 -1011
+rect -148 -1083 -134 -1051
+rect -62 -1083 -48 -1051
+rect -148 -1097 -48 -1083
+rect 48 -1051 148 -1011
+rect 48 -1083 62 -1051
+rect 134 -1083 148 -1051
+rect 48 -1097 148 -1083
+<< polycont >>
+rect -134 -1083 -62 -1051
+rect 62 -1083 134 -1051
+<< xpolyres >>
+rect -148 997 148 1097
+rect -148 -1011 -48 997
+rect 48 -1011 148 997
+<< metal1 >>
+rect -276 1193 -198 1225
+rect 198 1193 276 1225
+rect -276 1147 -244 1193
+rect 244 1147 276 1193
+rect -144 -1031 -52 -1030
+rect -144 -1087 -134 -1031
+rect -62 -1087 -52 -1031
+rect -144 -1088 -52 -1087
+rect 52 -1031 144 -1030
+rect 52 -1087 62 -1031
+rect 134 -1087 144 -1031
+rect 52 -1088 144 -1087
+rect -276 -1193 -244 -1147
+rect 244 -1193 276 -1147
+rect -276 -1225 -198 -1193
+rect 198 -1225 276 -1193
+<< via1 >>
+rect -134 -1051 -62 -1031
+rect -134 -1083 -62 -1051
+rect -134 -1087 -62 -1083
+rect 62 -1051 134 -1031
+rect 62 -1083 134 -1051
+rect 62 -1087 134 -1083
+<< metal2 >>
+rect -134 -1031 -62 -1022
+rect -134 -1096 -62 -1087
+rect 62 -1031 134 -1022
+rect 62 -1096 134 -1087
+<< labels >>
+rlabel psubdiffcont 0 -1209 0 -1209 0 B
+port 1 nsew
+rlabel polycont -98 -1067 -98 -1067 0 R1
+port 2 nsew
+rlabel polycont 98 -1067 98 -1067 0 R2
+port 3 nsew
+<< properties >>
+string FIXED_BBOX -260 -1209 260 1209
+string gencell rhigh
+string library sg13g2
+string parameters w 0.50 l 10.3385 m 1 nx 2 wmin 0.50 lmin 0.50 class resistor rho 1360 val 57.604k dummy 0 dw 0.0 term 0.0 sterm 0.0 caplen 0 guard 1 glc 1 grc 1 gtc 1 gbc 1 snake 1 full_metal 1 n_guard 0 hv_guard 0 vias 1 viagb 0 viagt 0 viagl 0 viagr 0 doports 1
+<< end >>

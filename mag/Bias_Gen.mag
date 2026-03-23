@@ -1,7 +1,7 @@
 magic
 tech ihp-sg13g2
 magscale 1 2
-timestamp 1774035594
+timestamp 1774202959
 << nwell >>
 rect 1210 3490 1360 3540
 rect 1210 3270 1340 3490
@@ -61,19 +61,19 @@ rect 1510 -170 1520 -130
 rect 1560 -170 1570 -130
 rect 1510 -180 1570 -170
 use sg13_lv_nmos_W4KBKF  sg13_lv_nmos_W4KBKF_0
-timestamp 1774033853
+timestamp 1774202959
 transform -1 0 1398 0 1 884
 box -168 -1074 168 1074
 use sg13_lv_pmos_LRF4C6  XM2
-timestamp 1774033853
+timestamp 1774202959
 transform -1 0 1463 0 1 3401
 box -143 -181 143 155
 use sg13_lv_nmos_TVR6VH  XM_TAIL1
-timestamp 1774033853
+timestamp 1774202959
 transform 0 1 1415 -1 0 2588
 box -568 -155 568 155
 use rhigh_KNJKLN  XR1
-timestamp 1774034731
+timestamp 1774202959
 transform 0 1 3877 -1 0 1730
 box -1920 -2267 1920 2267
 << labels >>

@@ -1,0 +1,122 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1774202959
+<< error_p >>
+rect -134 1045 -62 1119
+rect 62 1045 134 1119
+rect -134 -1119 -62 -1045
+rect 62 -1119 134 -1045
+<< pwell >>
+rect -352 -1324 352 1324
+<< psubdiff >>
+rect -290 1248 290 1262
+rect -290 1216 -198 1248
+rect 198 1216 290 1248
+rect -290 1202 290 1216
+rect -290 1170 -230 1202
+rect -290 -1170 -276 1170
+rect -244 -1170 -230 1170
+rect 230 1170 290 1202
+rect -290 -1202 -230 -1170
+rect 230 -1170 244 1170
+rect 276 -1170 290 1170
+rect 230 -1202 290 -1170
+rect -290 -1216 290 -1202
+rect -290 -1248 -198 -1216
+rect 198 -1248 290 -1216
+rect -290 -1262 290 -1248
+<< psubdiffcont >>
+rect -198 1216 198 1248
+rect -276 -1170 -244 1170
+rect 244 -1170 276 1170
+rect -198 -1248 198 -1216
+<< poly >>
+rect -148 1106 -48 1120
+rect -148 1074 -134 1106
+rect -62 1074 -48 1106
+rect -148 1034 -48 1074
+rect -148 -1074 -48 -1034
+rect -148 -1106 -134 -1074
+rect -62 -1106 -48 -1074
+rect -148 -1120 -48 -1106
+rect 48 1106 148 1120
+rect 48 1074 62 1106
+rect 134 1074 148 1106
+rect 48 1034 148 1074
+rect 48 -1074 148 -1034
+rect 48 -1106 62 -1074
+rect 134 -1106 148 -1074
+rect 48 -1120 148 -1106
+<< polycont >>
+rect -134 1074 -62 1106
+rect -134 -1106 -62 -1074
+rect 62 1074 134 1106
+rect 62 -1106 134 -1074
+<< xpolyres >>
+rect -148 -1034 -48 1034
+rect 48 -1034 148 1034
+<< metal1 >>
+rect -276 1216 -198 1248
+rect 198 1216 276 1248
+rect -276 1170 -244 1216
+rect 244 1170 276 1216
+rect -144 1110 -52 1111
+rect -144 1054 -134 1110
+rect -62 1054 -52 1110
+rect -144 1053 -52 1054
+rect 52 1110 144 1111
+rect 52 1054 62 1110
+rect 134 1054 144 1110
+rect 52 1053 144 1054
+rect -144 -1054 -52 -1053
+rect -144 -1110 -134 -1054
+rect -62 -1110 -52 -1054
+rect -144 -1111 -52 -1110
+rect 52 -1054 144 -1053
+rect 52 -1110 62 -1054
+rect 134 -1110 144 -1054
+rect 52 -1111 144 -1110
+rect -276 -1216 -244 -1170
+rect 244 -1216 276 -1170
+rect -276 -1248 -198 -1216
+rect 198 -1248 276 -1216
+<< via1 >>
+rect -134 1106 -62 1110
+rect -134 1074 -62 1106
+rect -134 1054 -62 1074
+rect 62 1106 134 1110
+rect 62 1074 134 1106
+rect 62 1054 134 1074
+rect -134 -1074 -62 -1054
+rect -134 -1106 -62 -1074
+rect -134 -1110 -62 -1106
+rect 62 -1074 134 -1054
+rect 62 -1106 134 -1074
+rect 62 -1110 134 -1106
+<< metal2 >>
+rect -134 1110 -62 1119
+rect -134 1045 -62 1054
+rect 62 1110 134 1119
+rect 62 1045 134 1054
+rect -134 -1054 -62 -1045
+rect -134 -1119 -62 -1110
+rect 62 -1054 134 -1045
+rect 62 -1119 134 -1110
+<< labels >>
+rlabel psubdiffcont 0 -1232 0 -1232 0 B
+port 1 nsew
+rlabel polycont -98 1090 -98 1090 0 R1_0
+port 2 nsew
+rlabel polycont -98 -1090 -98 -1090 0 R2_0
+port 3 nsew
+rlabel polycont 98 1090 98 1090 0 R1_1
+port 4 nsew
+rlabel polycont 98 -1090 98 -1090 0 R2_1
+port 5 nsew
+<< properties >>
+string FIXED_BBOX -260 -1232 260 1232
+string gencell rhigh
+string library sg13g2
+string parameters w 0.50 l 10.3385 m 1 nx 2 wmin 0.50 lmin 0.50 class resistor rho 1360 val 28.122k dummy 0 dw 0.0 term 0.0 sterm 0.0 caplen 0 guard 1 glc 1 grc 1 gtc 1 gbc 1 snake 0 full_metal 1 n_guard 0 hv_guard 0 vias 1 viagb 0 viagt 0 viagl 0 viagr 0 doports 1
+<< end >>

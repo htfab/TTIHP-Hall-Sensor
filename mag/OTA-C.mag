@@ -1,99 +1,101 @@
 magic
 tech ihp-sg13g2
 magscale 1 2
-timestamp 1773998157
-<< error_s >>
-rect 129 -1851 169 -1793
-rect 236 -1866 298 -1804
-rect 365 -1839 405 -1793
-rect 539 -1839 579 -1793
-rect 342 -1843 428 -1839
-rect 516 -1843 602 -1839
-rect 365 -1851 405 -1843
-rect 539 -1851 579 -1843
-rect 72 -1925 112 -1867
-rect 186 -1925 226 -1867
-rect 298 -1881 358 -1866
-rect 422 -1875 462 -1867
-rect 482 -1875 522 -1867
-rect 596 -1875 636 -1867
-rect 646 -1875 708 -1804
-rect 775 -1839 815 -1793
-rect 752 -1843 838 -1839
-rect 775 -1851 815 -1843
-rect 718 -1875 758 -1867
-rect 832 -1875 872 -1867
-rect 412 -1876 464 -1875
-rect 480 -1876 532 -1875
-rect 412 -1879 462 -1876
-rect 298 -1911 360 -1881
-rect 298 -1926 358 -1911
-rect 422 -1913 462 -1879
-rect 412 -1916 462 -1913
-rect 482 -1879 532 -1876
-rect 586 -1876 768 -1875
-rect 482 -1913 522 -1879
-rect 482 -1916 532 -1913
-rect 412 -1917 464 -1916
-rect 480 -1917 532 -1916
-rect 586 -1916 636 -1876
-rect 646 -1879 768 -1876
-rect 822 -1876 882 -1875
-rect 646 -1913 758 -1879
-rect 646 -1916 768 -1913
-rect 586 -1917 768 -1916
-rect 822 -1916 872 -1876
-rect 822 -1917 882 -1916
-rect 422 -1925 462 -1917
-rect 482 -1925 522 -1917
-rect 596 -1925 636 -1917
-rect 646 -1926 708 -1917
-rect 718 -1925 758 -1917
-rect 832 -1925 872 -1917
-rect 129 -1999 169 -1941
-rect 365 -1949 405 -1941
-rect 539 -1949 579 -1941
-rect 775 -1949 815 -1941
-rect 342 -1953 428 -1949
-rect 516 -1953 602 -1949
-rect 752 -1953 838 -1949
-rect 365 -1999 405 -1953
-rect 539 -1999 579 -1953
-rect 775 -1999 815 -1953
+timestamp 1774202959
+<< nwell >>
+rect 1340 -160 3320 60
+rect 2220 -600 2740 -160
+<< pwell >>
+rect 1380 -1220 3280 -640
+<< psubdiff >>
+rect 1420 -1080 2220 -1060
+rect 1420 -1160 1440 -1080
+rect 2200 -1160 2220 -1080
+rect 1420 -1180 2220 -1160
+rect 2420 -1080 3220 -1060
+rect 2420 -1160 2440 -1080
+rect 3200 -1160 3220 -1080
+rect 2420 -1180 3220 -1160
+<< nsubdiff >>
+rect 1400 -20 3260 0
+rect 1400 -100 1420 -20
+rect 3240 -100 3260 -20
+rect 1400 -120 3260 -100
+<< psubdiffcont >>
+rect 1440 -1160 2200 -1080
+rect 2440 -1160 3200 -1080
+<< nsubdiffcont >>
+rect 1420 -100 3240 -20
 << metal1 >>
-rect 0 0 200 200
-rect 0 -400 200 -200
-rect 0 -800 200 -600
-rect 0 -1200 200 -1000
-rect 0 -1600 200 -1400
-rect 0 -2000 200 -1800
-use sg13_lv_nmos_8QWFDF  XM_IN_N
-timestamp 1773998157
-transform 1 0 559 0 1 -1896
-box -87 -104 87 104
-use sg13_lv_nmos_8QWFDF  XM_IN_P
-timestamp 1773998157
-transform 1 0 385 0 1 -1896
-box -87 -104 87 104
-use sg13_lv_pmos_7RWFQ4  XM_LOAD1
-timestamp 1773998157
-transform 1 0 149 0 1 -1896
-box -149 -104 149 104
-use sg13_lv_pmos_7RWFQ4  XM_LOAD2
-timestamp 1773998157
-transform 1 0 795 0 1 -1896
-box -149 -104 149 104
+rect 2190 0 2470 200
+rect 1400 -20 3260 0
+rect 1400 -100 1420 -20
+rect 3240 -100 3260 -20
+rect 1400 -120 3260 -100
+rect 1410 -260 2190 -120
+rect 2460 -260 3240 -120
+rect 2230 -480 2430 -280
+rect 1410 -520 2430 -480
+rect 1400 -540 2430 -520
+rect 2470 -500 3240 -480
+rect 1400 -720 2200 -540
+rect 2470 -700 3480 -500
+rect 2470 -720 3240 -700
+rect 1160 -940 1360 -740
+rect 3280 -940 3480 -740
+rect 1400 -1020 3240 -940
+rect 1160 -1070 1360 -1020
+rect 1160 -1080 2210 -1070
+rect 1160 -1160 1440 -1080
+rect 2200 -1160 2210 -1080
+rect 1160 -1180 2210 -1160
+rect 1160 -1220 1360 -1180
+rect 2260 -1220 2380 -1020
+rect 3280 -1070 3480 -1020
+rect 2430 -1080 3480 -1070
+rect 2430 -1160 2440 -1080
+rect 3200 -1160 3480 -1080
+rect 2430 -1180 3480 -1160
+rect 3280 -1220 3480 -1180
+rect 2220 -1420 2420 -1220
+<< via1 >>
+rect 2100 -1160 2180 -1100
+rect 2460 -1160 2540 -1100
+<< metal2 >>
+rect 2080 -1100 2560 -1080
+rect 2080 -1160 2100 -1100
+rect 2180 -1160 2460 -1100
+rect 2540 -1160 2560 -1100
+rect 2080 -1180 2560 -1160
+use sg13_lv_nmos_CB58VR  sg13_lv_nmos_CB58VR_0
+timestamp 1774202959
+transform 0 -1 1775 -1 0 -832
+box -168 -455 168 455
+use sg13_lv_pmos_XB565W  sg13_lv_pmos_XB565W_0
+timestamp 1774202959
+transform 0 1 1821 1 0 -370
+box -230 -481 230 455
+use sg13_lv_nmos_CB58VR  XM_IN_N
+timestamp 1774202959
+transform 0 1 2875 -1 0 -832
+box -168 -455 168 455
+use sg13_lv_pmos_XB565W  XM_LOAD2
+timestamp 1774202959
+transform 0 -1 2835 1 0 -370
+box -230 -481 230 455
 << labels >>
-flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 AMP_OUT
-port 0 nsew
-flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 IN_P
-port 1 nsew
-flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 VDD
+flabel metal1 2230 0 2430 200 0 FreeSans 256 0 0 0 VDD
 port 2 nsew
-flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 IN_N
+flabel metal1 3280 -940 3480 -740 0 FreeSans 256 0 0 0 IN_N
 port 3 nsew
-flabel metal1 0 -1600 200 -1400 0 FreeSans 256 0 0 0 VSS
+flabel metal1 1160 -940 1360 -740 0 FreeSans 256 0 0 0 IN_P
+port 1 nsew
+flabel metal1 1160 -1220 1360 -1020 0 FreeSans 256 0 0 0 VSS
 port 4 nsew
-flabel metal1 0 -2000 200 -1800 0 FreeSans 256 0 0 0 BIAS
+flabel metal1 3280 -700 3480 -500 0 FreeSans 256 0 0 0 AMP_OUT
+port 0 nsew
+flabel metal1 2220 -1420 2420 -1220 0 FreeSans 256 0 0 0 BIAS
 port 5 nsew
+flabel metal1 3280 -1220 3480 -1020 0 FreeSans 256 180 0 0 VSS
+port 4 nsew
 << end >>

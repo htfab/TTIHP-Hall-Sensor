@@ -1,0 +1,87 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1774202959
+<< error_p >>
+rect -36 1011 36 1085
+rect -36 -1085 36 -1011
+<< pwell >>
+rect -254 -1290 254 1290
+<< psubdiff >>
+rect -192 1214 192 1228
+rect -192 1182 -100 1214
+rect 100 1182 192 1214
+rect -192 1168 192 1182
+rect -192 1136 -132 1168
+rect -192 -1136 -178 1136
+rect -146 -1136 -132 1136
+rect 132 1136 192 1168
+rect -192 -1168 -132 -1136
+rect 132 -1136 146 1136
+rect 178 -1136 192 1136
+rect 132 -1168 192 -1136
+rect -192 -1182 192 -1168
+rect -192 -1214 -100 -1182
+rect 100 -1214 192 -1182
+rect -192 -1228 192 -1214
+<< psubdiffcont >>
+rect -100 1182 100 1214
+rect -178 -1136 -146 1136
+rect 146 -1136 178 1136
+rect -100 -1214 100 -1182
+<< poly >>
+rect -50 1072 50 1086
+rect -50 1040 -36 1072
+rect 36 1040 50 1072
+rect -50 1000 50 1040
+rect -50 -1040 50 -1000
+rect -50 -1072 -36 -1040
+rect 36 -1072 50 -1040
+rect -50 -1086 50 -1072
+<< polycont >>
+rect -36 1040 36 1072
+rect -36 -1072 36 -1040
+<< xpolyres >>
+rect -50 -1000 50 1000
+<< metal1 >>
+rect -178 1182 -100 1214
+rect 100 1182 178 1214
+rect -178 1136 -146 1182
+rect 146 1136 178 1182
+rect -46 1076 46 1077
+rect -46 1020 -36 1076
+rect 36 1020 46 1076
+rect -46 1019 46 1020
+rect -46 -1020 46 -1019
+rect -46 -1076 -36 -1020
+rect 36 -1076 46 -1020
+rect -46 -1077 46 -1076
+rect -178 -1182 -146 -1136
+rect 146 -1182 178 -1136
+rect -178 -1214 -100 -1182
+rect 100 -1214 178 -1182
+<< via1 >>
+rect -36 1072 36 1076
+rect -36 1040 36 1072
+rect -36 1020 36 1040
+rect -36 -1040 36 -1020
+rect -36 -1072 36 -1040
+rect -36 -1076 36 -1072
+<< metal2 >>
+rect -36 1076 36 1085
+rect -36 1011 36 1020
+rect -36 -1020 36 -1011
+rect -36 -1085 36 -1076
+<< labels >>
+rlabel psubdiffcont 0 -1198 0 -1198 0 B
+port 1 nsew
+rlabel polycont 0 1056 0 1056 0 R1
+port 2 nsew
+rlabel polycont 0 -1056 0 -1056 0 R2
+port 3 nsew
+<< properties >>
+string FIXED_BBOX -162 -1198 162 1198
+string gencell rhigh
+string library sg13g2
+string parameters w 0.50 l 10 m 1 nx 1 wmin 0.50 lmin 0.50 class resistor rho 1360 val 27.2k dummy 0 dw 0.0 term 0.0 sterm 0.0 caplen 0 guard 1 glc 1 grc 1 gtc 1 gbc 1 snake 0 full_metal 1 n_guard 0 hv_guard 0 vias 1 viagb 0 viagt 0 viagl 0 viagr 0 doports 1
+<< end >>
