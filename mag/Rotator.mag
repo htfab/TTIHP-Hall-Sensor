@@ -1,7 +1,7 @@
 magic
 tech ihp-sg13g2
 magscale 1 2
-timestamp 1774202959
+timestamp 1774282972
 << nwell >>
 rect -2200 -5800 -1890 -3680
 rect 1890 -5800 2200 -3680
@@ -385,19 +385,19 @@ timestamp 1774202959
 transform -1 0 1655 0 1 -4719
 box -245 -1081 245 1055
 use CMOS_transmission_gate  x1
-timestamp 1774202959
+timestamp 1774282972
 transform -1 0 1780 0 -1 -7850
 box 380 -2090 1070 -1120
 use CMOS_transmission_gate  x2
-timestamp 1774202959
+timestamp 1774282972
 transform 1 0 -2020 0 -1 -3870
 box 380 -2090 1070 -1120
 use CMOS_transmission_gate  x3
-timestamp 1774202959
+timestamp 1774282972
 transform -1 0 2020 0 -1 -3870
 box 380 -2090 1070 -1120
 use CMOS_transmission_gate  x10
-timestamp 1774202959
+timestamp 1774282972
 transform 1 0 -1780 0 -1 -7850
 box 380 -2090 1070 -1120
 use sg13_lv_pmos_CV6Q76  XM2
