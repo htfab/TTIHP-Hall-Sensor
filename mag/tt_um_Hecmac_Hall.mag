@@ -1,7 +1,7 @@
 magic
 tech ihp-sg13g2
 magscale 1 2
-timestamp 1774282972
+timestamp 1774288376
 << metal1 >>
 rect 1200 56500 4320 56700
 rect 200 55800 4320 56000
@@ -699,27 +699,27 @@ rect 23345 0 23695 400
 rect 28241 0 28591 400
 rect 33137 0 33487 400
 rect 38033 0 38383 400
-use Digital_Block_Hecmac  Digital_Block_Hecmac_0 ~/eda/TTIHP-Hall-Sensor/mag
-timestamp 1774267088
-transform 1 0 3165 0 1 40000
-box 835 0 34896 20000
-use hall_sensor_core  hall_sensor_core_0 ~/eda/TTIHP-Hall-Sensor/mag
+use hall_sensor_core  hall_sensor_core_0
 timestamp 1774282972
 transform 1 0 20900 0 1 57120
 box -16900 -49120 18420 -19600
-use via_Y6H6LQ  via_Y6H6LQ_0 ~/eda/TTIHP-Hall-Sensor/mag
+use tt_um_Hecmac  tt_um_Hecmac_0
+timestamp 1774267088
+transform 1 0 3165 0 1 40000
+box 835 0 34896 20000
+use via_Y6H6LQ  via_Y6H6LQ_0 Misc_Analog
 timestamp 1774276229
 transform 1 0 22769 0 1 21269
 box -269 -269 269 269
-use via_Y6H6QQ  via_Y6H6QQ_0 ~/eda/TTIHP-Hall-Sensor/mag
+use via_Y6H6QQ  via_Y6H6QQ_0 Misc_Analog
 timestamp 1774276229
 transform 1 0 36046 0 1 19546
 box -546 -546 546 546
-use via_Y6ZFHQ  via_Y6ZFHQ_0
+use via_Y6ZFHQ  via_Y6ZFHQ_0 Misc_Analog
 timestamp 1774280021
 transform 1 0 494 0 1 8994
 box -294 -294 294 294
-use via_Y6ZTHQ  via_Y6ZTHQ_0 ~/eda/TTIHP-Hall-Sensor/mag
+use via_Y6ZTHQ  via_Y6ZTHQ_0 Misc_Analog
 timestamp 1774272613
 transform 1 0 1494 0 1 56594
 box -294 -294 294 294
