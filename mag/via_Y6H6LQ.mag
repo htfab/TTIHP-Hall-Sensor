@@ -1,0 +1,34 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1774276229
+<< metal1 >>
+rect -269 260 269 261
+rect -269 -260 -260 260
+rect 260 -260 269 260
+rect -269 -261 269 -260
+<< via1 >>
+rect -260 -260 260 260
+<< metal2 >>
+rect -260 260 260 269
+rect -260 -269 260 -260
+<< via2 >>
+rect -260 -260 260 260
+<< metal3 >>
+rect -269 -260 -260 260
+rect 260 -260 269 260
+<< via3 >>
+rect -260 -260 260 260
+<< metal4 >>
+rect -260 260 260 269
+rect -260 -269 260 -260
+<< via4 >>
+rect -260 -260 260 260
+<< metal5 >>
+rect -269 -260 -260 260
+rect 260 -260 269 260
+<< properties >>
+string gencell via
+string library sg13g2
+string parameters metalbot metal1 metaltop metal5 nxcuts 6 nycuts 6 orient default pattern none
+<< end >>

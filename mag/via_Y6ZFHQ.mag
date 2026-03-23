@@ -1,0 +1,30 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1774280021
+<< metal3 >>
+rect -111 -102 -102 102
+rect 102 -102 111 102
+<< via3 >>
+rect -102 -102 102 102
+<< metal4 >>
+rect -102 102 102 111
+rect -102 -111 102 -102
+<< via4 >>
+rect -102 -102 102 102
+<< via5 >>
+rect -230 102 230 230
+rect -230 -102 -102 102
+rect -102 -102 102 102
+rect 102 -102 230 102
+rect -230 -230 230 -102
+<< metal6 >>
+rect -294 230 294 294
+rect -294 -230 -230 230
+rect 230 -230 294 230
+rect -294 -294 294 -230
+<< properties >>
+string gencell via
+string library sg13g2
+string parameters metalbot metal3 metaltop metal6 nxcuts 3 nycuts 3 orient default pattern none
+<< end >>
